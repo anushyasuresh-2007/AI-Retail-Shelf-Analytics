@@ -1,0 +1,23 @@
+{
+    "total_unique_visitors": 6,
+    "most_visited_shelf": "Shelf_B",
+    "least_visited_shelf": "Shelf_A",
+    "highest_engagement_shelf": "Shelf_C",
+    "shelves": {
+        "Shelf_A": {
+            "visitors": 3,
+            "total_dwell_time": 8.4,
+            "average_dwell_time": 2.8
+        },
+        "Shelf_B": {
+            "visitors": 4,
+            "total_dwell_time": 6.8,
+            "average_dwell_time": 1.7
+        },
+        "Shelf_C": {
+            "visitors": 3,
+            "total_dwell_time": 9.67,
+            "average_dwell_time": 3.22
+        }
+    }
+}
