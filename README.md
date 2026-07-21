@@ -163,7 +163,17 @@ screenshots/analytics.png
 
 ---
 
-# 👩‍💻 Developed By
+# 👥 Team
+
+This project was developed as part of **HACKZEN'26** by:
+
+- **Anushya S**
+- **Harshini**
+- **Sowdeshwari**
+
+---
+
+# GitHub Repository
 
 **Anushya S**
 
@@ -173,14 +183,6 @@ Bannari Amman Institute of Technology
 
 GitHub:
 https://github.com/anushyasuresh-2007
-
----
-
-# 📄 License
-
-This project is intended for educational and research purposes.
-
----
 
 ## ⭐ If you like this project
 
