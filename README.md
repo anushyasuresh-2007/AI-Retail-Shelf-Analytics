@@ -147,20 +147,7 @@ streamlit run dashboard.py
 - Real-time Notifications
 - Cloud Database Integration
 - AI-based Recommendation System
-
----
-
-# 📷 Screenshots
-
-Add screenshots of your application here.
-
-Example:
-
-```
-screenshots/dashboard.png
-screenshots/analytics.png
-```
-
+  
 ---
 
 # 👥 Team
