@@ -1,138 +1,187 @@
-***# 🛒 AI-Powered Retail Shelf Engagement Analytics***
+# 🛒 AI Retail Shelf Engagement Analytics
 
+An AI-powered Retail Shelf Engagement Analytics system built using **Python**, **OpenCV**, **YOLO**, and **Streamlit** to analyze customer interactions with retail shelves. The application detects customers, tracks shelf engagement, counts visitors, and displays real-time analytics through an interactive dashboard.
 
+---
 
-***An AI-powered computer vision system that analyzes retail surveillance videos to understand customer movement and shelf engagement.***
+## 🚀 Live Demo
 
+🌐 **Streamlit App**
 
+https://ai-retail-shelf-analytics-4wwymwsdeneerdbh7vlvkp.streamlit.app/
 
-***## 🚀 Features***
+---
 
+## 📂 GitHub Repository
 
+https://github.com/anushyasuresh-2007/AI-Retail-Shelf-Analytics
 
-***- Person detection using YOLO***
+---
 
-***- Multi-object tracking using ByteTrack***
+# 📖 Project Overview
 
-***- Unique customer ID tracking***
+Retail stores often struggle to understand how customers interact with different shelves. Manual observation is time-consuming and inaccurate.
 
-***- Shelf-wise visitor counting***
+This project uses Computer Vision to automatically monitor customer movement, detect shelf interactions, and generate analytics that help retailers optimize product placement and improve customer engagement.
 
-***- Total dwell time calculation***
+---
 
-***- Average dwell time calculation***
+# ✨ Features
 
-***- Most and least visited shelf detection***
+- 👤 Real-time customer detection
+- 📍 Shelf-wise visitor tracking
+- 📊 Interactive analytics dashboard
+- 📈 Visitor count visualization
+- 🎥 Video processing support
+- 🖥️ User-friendly Streamlit interface
+- ⚡ Real-time data updates
+- 📉 Analytics charts and reports
 
-***- Shelf engagement ranking***
+---
 
-***- Customer movement heatmap***
+# 🛠️ Technologies Used
 
-***- Customer traffic distribution***
+- Python
+- OpenCV
+- YOLO
+- Streamlit
+- Pandas
+- Matplotlib
+- NumPy
+- Pillow (PIL)
+- JSON
 
-***- Annotated tracking video***
+---
 
-***- Streamlit analytics dashboard***
+# 📁 Project Structure
 
-***- CSV analytics report download***
+```
+AI-Retail-Shelf-Analytics/
+│
+├── dashboard.py
+├── requirements.txt
+├── README.md
+├── data/
+├── images/
+├── videos/
+├── output/
+├── models/
+├── utils/
+└── assets/
+```
 
+*(Folder names may vary depending on your project.)*
 
+---
 
-***## 🧠 System Workflow***
+# ⚙️ Installation
 
+Clone the repository
 
+```bash
+git clone https://github.com/anushyasuresh-2007/AI-Retail-Shelf-Analytics.git
+```
 
-***Surveillance Video***  
+Move into the project folder
 
-***↓***  
+```bash
+cd AI-Retail-Shelf-Analytics
+```
 
-***YOLO Person Detection***  
+Install dependencies
 
-***↓***  
+```bash
+pip install -r requirements.txt
+```
 
-***ByteTrack Object Tracking***  
+Run the application
 
-***↓***  
+```bash
+streamlit run dashboard.py
+```
 
-***Unique Customer IDs***  
+---
 
-***↓***  
+# ▶️ How It Works
 
-***Shelf Zone Detection***  
+1. Upload or load a retail shelf video.
+2. Detect customers using Computer Vision.
+3. Monitor customer movement.
+4. Identify shelf engagement.
+5. Count visitors for each shelf.
+6. Display analytics through the Streamlit dashboard.
+7. Generate visual insights for retailers.
 
-***↓***  
+---
 
-***Dwell Time Calculation***  
+# 📊 Dashboard Includes
 
-***↓***  
+- Shelf A Visitor Count
+- Shelf B Visitor Count
+- Shelf C Visitor Count
+- Total Visitors
+- Charts
+- Analytics Summary
+- Engagement Statistics
 
-***Shelf Analytics***  
+---
 
-***↓***  
+# 💡 Applications
 
-***Streamlit Dashboard***
+- Retail Analytics
+- Smart Stores
+- Customer Behaviour Analysis
+- Shelf Optimization
+- Marketing Analytics
+- Business Intelligence
+- Store Performance Monitoring
 
+---
 
+# 🎯 Future Improvements
 
-***## 🛠️ Technologies Used***
+- Heatmap Generation
+- Multi-camera Support
+- Customer Demographics
+- Product Interaction Detection
+- Real-time Notifications
+- Cloud Database Integration
+- AI-based Recommendation System
 
+---
 
+# 📷 Screenshots
 
-***- Python***
+Add screenshots of your application here.
 
-***- YOLO***
+Example:
 
-***- Ultralytics***
+```
+screenshots/dashboard.png
+screenshots/analytics.png
+```
 
-***- OpenCV***
+---
 
-***- ByteTrack***
+# 👩‍💻 Developed By
 
-***- Streamlit***
+**Anushya S**
 
-***- Pandas***
+B.Tech – Computer Science and Business Systems (CSBS)
 
-***- Matplotlib***
+Bannari Amman Institute of Technology
 
+GitHub:
+https://github.com/anushyasuresh-2007
 
+---
 
-***## 📊 Analytics Generated***
+# 📄 License
 
+This project is intended for educational and research purposes.
 
+---
 
-***The system calculates:***
+## ⭐ If you like this project
 
-
-
-***- Total unique visitors***
-
-***- Visitors per shelf***
-
-***- Total dwell time***
-
-***- Average dwell time***
-
-***- Most visited shelf***
-
-***- Least visited shelf***
-
-***- Highest engagement shelf***
-
-***- Customer movement heatmap***
-
-
-
-***## ▶️ How to Run***
-
-
-
-***### 1. Clone the repository***
-
-
-
-***```bash***
-
-***git clone YOUR\_GITHUB\_REPOSITORY\_URL***
-
-***cd AI-Retail-Shelf-Analytics***
-
+Please give this repository a ⭐ on GitHub.
